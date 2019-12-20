@@ -86,7 +86,7 @@
 }
 
 .col-md-4.imagecol {
-  background-color: white;
+  background-color: transparent;
   padding-top: 20px;
 }
 
@@ -101,4 +101,3 @@
     display: none;
   }
 }
-
