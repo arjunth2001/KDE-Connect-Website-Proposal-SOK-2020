@@ -129,7 +129,8 @@
 .tab-content {
   max-height: 0;
   padding: 0 1em;
-  color: black;
+  color: #2c3e50;
+
   transition: all 0.35s;
 }
 .tab-close {
@@ -173,7 +174,7 @@ input:checked ~ .tab-content {
   flex: 1;
   justify-content: center;
   align-items: center;
-  box-shadow: 4px 4px 20px -2px #f47750;
+  box-shadow: 4px 4px 20px -2px #95a5a6;
   transition: all 0.4s;
 }
 
@@ -224,7 +225,7 @@ input:checked ~ .tab-content {
   margin-bottom: 5px;
   background: #3daee9;
   transition: background 3s;
-  box-shadow: 2px 2px 10px -2px #f47750;
+  box-shadow: 2px 2px 10px -2px #95a5a6;
   font-size: 18px;
 }
 
@@ -268,7 +269,7 @@ input:checked ~ .tab-content {
   margin-bottom: 5px;
   background: #3daee9;
   transition: background 3s;
-  box-shadow: 2px 2px 10px -2px #f47750;
+  box-shadow: 2px 2px 10px -2px #95a5a6;
   font-size: 18px;
   text-align: center;
 }
@@ -291,4 +292,65 @@ input:checked ~ .tab-content {
   .tab-content {
     color: white;
   }
+}
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button.learn-more {
+  font-weight: 600;
+  color: #382b22;
+  padding: 1.25em 2em;
+  background: #1abc9c;
+  border: 2px solid #003333;
+  border-radius: 0.75em;
+  transform-style: preserve-3d;
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
+    background 150ms cubic-bezier(0, 0, 0.58, 1);
+  width: 100%;
+}
+
+button.learn-more::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #16a085;
+  border-radius: inherit;
+  box-shadow: 0 0 0 2px #003333, 0 0.625em 0 0 #1cdc9a;
+  transform: translate3d(0, 0.75em, -1em);
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
+    box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+button.learn-more:hover {
+  background: #27ae60;
+  transform: translate(0, 0.25em);
+}
+
+button.learn-more:hover::before {
+  box-shadow: 0 0 0 2px #003333, 0 0.5em 0 0 #1cdc9a;
+  transform: translate3d(0, 0.5em, -1em);
+}
+
+button.learn-more:active {
+  background: #27ae60;
+  transform: translate(0em, 0.75em);
+}
+
+button.learn-more:active::before {
+  box-shadow: 0 0 0 2px #003333, 0 0 #1cdc9a;
+  transform: translate3d(0, 0, -1em);
 }
