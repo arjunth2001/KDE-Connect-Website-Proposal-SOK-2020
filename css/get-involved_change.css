@@ -287,3 +287,8 @@ input:checked ~ .tab-content {
   text-decoration: none;
   transition: color 0.3s;
 }
+@media (prefers-color-scheme: dark) {
+  .tab-content {
+    color: white;
+  }
+}
