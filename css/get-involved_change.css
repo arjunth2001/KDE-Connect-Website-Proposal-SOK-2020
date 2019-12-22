@@ -293,7 +293,7 @@ input:checked ~ .tab-content {
     color: white;
   }
 }
-button {
+.tab-content.contribute button {
   position: relative;
   display: inline-block;
   cursor: pointer;
