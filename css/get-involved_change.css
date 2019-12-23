@@ -230,8 +230,9 @@ input:checked ~ .tab-content {
   }
 }
 @media (prefers-color-scheme: dark) {
-  .headinglink h2 {
-    color: white;
+  .headinglink{
+    color: white !important;
+
   }
 }
 .tab-content.contribute button {
