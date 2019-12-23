@@ -229,6 +229,11 @@ input:checked ~ .tab-content {
     color: white;
   }
 }
+@media (prefers-color-scheme: dark) {
+  .headinglink {
+    color: white;
+  }
+}
 .tab-content.contribute button {
   position: relative;
   display: inline-block;
