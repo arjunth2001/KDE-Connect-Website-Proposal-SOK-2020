@@ -154,6 +154,10 @@ input:checked ~ .tab-content {
   max-height: 100vh;
   padding: 1em;
 }
+
+.tab-content.contribute {
+  overflow: scroll;
+}
 .dropdown.links {
   margin: auto;
   margin-top: 40px;
@@ -162,7 +166,7 @@ input:checked ~ .tab-content {
   height: 200px;
 }
 
-.dropdown.links h2 {
+.headinglink {
   border-radius: 2px;
   position: relative;
   background: #3daee9;
@@ -176,75 +180,7 @@ input:checked ~ .tab-content {
   align-items: center;
   box-shadow: 4px 4px 20px -2px #95a5a6;
   transition: all 0.4s;
-}
-
-.dropdown.links:hover h2 {
-  transform: translateY(-2px);
-  box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.35);
-}
-.dropdown.links:hover:active h2 {
-  transform: translateY(10px);
-  box-shadow: 0px -1px 2px 0px rgba(0, 0, 0, 0.35);
-}
-
-.toggle {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-  opacity: 0;
-  cursor: pointer;
-  height: 40px;
-}
-
-#toggle:checked ~ ul {
-  height: 0%;
-}
-
-.dropdown.links ul {
-  padding-left: 0;
-  padding-top: 0;
-  margin-top: 0;
-  list-style: none;
-  overflow: hidden;
-  text-align: right;
-  margin-bottom: 22px;
-  text-align: center;
-  transition: all 0.4s ease-out;
-  height: 100%;
-}
-.dropdown.links ul li {
-  border-radius: 2px;
-  position: relative;
-  display: inline-block;
-  margin-left: 35px;
-  line-height: 1.5;
-  width: 100%;
-  margin: 0;
-  margin-bottom: 5px;
-  background: #3daee9;
-  transition: background 3s;
-  box-shadow: 2px 2px 10px -2px #95a5a6;
-  font-size: 18px;
-}
-
-.dropdown.links ul li:hover {
-  background: #2980b9;
-  transition: background 0.45s;
-}
-
-.dropdown.links ul a {
-  display: block;
-  color: white;
-
-  font-size: 18px;
-  font-weight: 200;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-.tab-content.contribute {
-  overflow: scroll;
+  margin-left: 40px;
 }
 .liblists-ul {
   padding-left: 0;
@@ -262,10 +198,10 @@ input:checked ~ .tab-content {
   border-radius: 2px;
   position: relative;
   display: inline-block;
-  margin-left: 35px;
+
   line-height: 1.5;
   width: 100%;
-  margin: 0;
+
   margin-bottom: 5px;
   background: #3daee9;
   transition: background 3s;
