@@ -230,7 +230,7 @@ input:checked ~ .tab-content {
   }
 }
 @media (prefers-color-scheme: dark) {
-  .headinglink {
+  .headinglink h2 {
     color: white;
   }
 }
