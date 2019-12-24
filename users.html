@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
       name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
     <title>KDE Connect</title>
@@ -25,38 +25,38 @@
 
     <!-- Bootstrap core CSS -->
     <link
-      href="https://cdn.kde.org/aether-devel/bootstrap.css?4-jekyll"
       rel="stylesheet"
+      href="https://cdn.kde.org/aether-devel/bootstrap.css?4-jekyll"
     />
     <link
-      href="https://cdn.kde.org/aether-devel/aether-kde-org.css?4-jekyll"
       rel="stylesheet"
+      href="https://cdn.kde.org/aether-devel/aether-kde-org.css?4-jekyll"
     />
 
-    <link href="css/main.css?4-jekyll" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css?4-jekyll" />
 
     <!-- Standard JS Files, bootstrap Async -->
     <script
-      defer=""
       src="https://cdn.kde.org/aether-devel/bootstrap.js?4-jekyll"
+      defer=""
     ></script>
   </head>
 
-  <body data-offset="50" data-spy="scroll" data-target="#kHeaderCarousel">
-    <header class="header clearfix" id="KGlobalHeader">
+  <body data-spy="scroll" data-target="#kHeaderCarousel" data-offset="50">
+    <header id="KGlobalHeader" class="header clearfix">
       <nav class="navbar navbar-expand-lg  with-made-by-kde ">
         <a class="app-logo navbar-brand active" href="index.html">
-          <img alt="Logo" src="assets/img/KDE_Logo.png" />
+          <img src="assets/img/KDE_Logo.png" alt="Logo" />
         </a>
 
         <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-kde"
           aria-controls="navbar-kde"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          class="navbar-toggler"
-          data-target="#navbar-kde"
-          data-toggle="collapse"
-          type="button"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -64,10 +64,10 @@
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a
-                aria-expanded="false"
-                aria-haspopup="true"
                 class="nav-link "
                 href="index.html"
+                aria-haspopup="true"
+                aria-expanded="false"
                 >KDE Connect</a
               >
             </li>
@@ -77,15 +77,15 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link " href="changelog.html">Changelog</a>
-            </li>
-
-            <li class="nav-item">
               <a class="nav-link " href="users.html">User support</a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link " href="get-involved.html">Get Involved</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="announcements.html">Announcements</a>
             </li>
 
             <li class="nav-item">
@@ -100,58 +100,212 @@
       </nav>
     </header>
 
-    <main aria-label="Content" class="navfix container">
-      <img
-        alt="Konqi, the KDE mascot"
-        class="konqi"
-        src="assets/img/konqi-docbook.png"
-      />
+    <section class="topkonqi">
+      <h4>Having Problems with KDE Connect or want help?</h4>
+      <h3>This is the help you need.</h3>
+      <img class="img-fluid" src="assets/img/usersupportheader.png" />
+    </section>
+    <div class="OSBlock">
+      <div class="container">
+        <div class="row downrow">
+          <div class="col-md-4 imagecol">
+            <img class="img-fluid" src="assets/img/userbase.png" />
+          </div>
+          <div class="col-md-8 down-desc">
+            <h1 class="down-head">UserBase Wiki</h1>
+            <p class="down-par">
+              Got lost in the features? Want to know how to install and use
+              connect? Having trouble with some features? The UserBase Wiki is a
+              great place to start.&nbsp;It provides information for end users
+              on how to use and configure KDE Connect.
+            </p>
+            <a href="https://userbase.kde.org/KDEConnect"
+              ><button class="btn btn-primary getbutton" type="button">
+                UserBase WIki
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="OSBlock alt">
+      <div class="container">
+        <div class="row downrow">
+          <div class="col-md-4 imagecol">
+            <img class="img-fluid" src="assets/img/wikiuser.png" />
+          </div>
+          <div class="col-md-8 down-desc">
+            <h1 class="down-head">KDE Connect Wiki</h1>
+            <p class="down-par">
+              Has everything that you need support on. Developer or normal user.
+              From Installation to Development. Even troubleshooting.
+            </p>
+            <a href="https://community.kde.org/KDEConnect"
+              ><button class="btn btn-primary getbutton" type="button">
+                Connect WIki
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="OSBlock main">
+      <div class="container">
+        <div class="row downrow">
+          <div class="col-md-8 down-desc">
+            <h1 class="down-head"><strong>KDE Connect Wiki</strong></h1>
+            <p class="down-par">
+              Has everything that you need support on. Developer or normal user.
+              From Installation to Development. Even troubleshooting.&nbsp;
+            </p>
+            <a href="https://community.kde.org/KDEConnect"
+              ><button class="btn btn-primary getbutton" type="button">
+                Connect WIki
+              </button></a
+            >
+          </div>
+          <div class="col-md-4 imagecol">
+            <img class="img-fluid" src="assets/img/wikiuser.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="OSBlock">
+      <div class="container">
+        <div class="row downrow">
+          <div class="col-md-4 imagecol">
+            <img class="img-fluid" src="assets/img/handbook.png" />
+          </div>
+          <div class="col-md-8 down-desc">
+            <h1 class="down-head">Handbook</h1>
+            <p class="down-par">
+              Connect provides various features. Read our handbook to get to
+              know KDE Connect.
+            </p>
+            <a
+              href="https://docs.kde.org/index.php?application=kdeconnect-kde&amp;language=en"
+              ><button class="btn btn-primary getbutton" type="button">
+                Handbook
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="OSBlock alt">
+      <div class="container">
+        <div class="row downrow">
+          <div class="col-md-4 imagecol">
+            <img class="img-fluid" src="assets/img/forum.png" />
+          </div>
+          <div class="col-md-8 down-desc">
+            <h1 class="down-head">Forums</h1>
+            <p class="text-left down-par">
+              Having an issue or want to discuss a problem. Why not do it on the
+              Forums?Maybe someone has already solved a similar problem. And if
+              not, feel free to ask there!
+            </p>
+            <a href="https://forum.kde.org/"
+              ><button class="btn btn-primary getbutton" type="button">
+                Forums
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="OSBlock main">
+      <div class="container">
+        <div class="row downrow">
+          <div class="col-md-8 down-desc">
+            <h1 class="down-head"><strong>Forums</strong></h1>
+            <p class="text-left down-par">
+              Having an issue or want to discuss a problem. Why not do it on the
+              Forums?Maybe someone has already solved a similar problem. And if
+              not, feel free to ask there!
+            </p>
+            <a href="https://forum.kde.org/"
+              ><button class="btn btn-primary getbutton" type="button">
+                Forums
+              </button></a
+            >
+          </div>
+          <div class="col-md-4 imagecol">
+            <img class="img-fluid" src="assets/img/forum.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="OSBlock">
+      <div class="container">
+        <div class="row downrow">
+          <div class="col-md-4 imagecol">
+            <img class="img-fluid" src="assets/img/features.png" />
+          </div>
+          <div class="col-md-8 down-desc">
+            <h1 class="down-head">Found a Bug? Request a new feature?</h1>
+            <p class="down-par">
+              Bugs always happen and we need to fix it. Connect has many
+              features and we can add more. Both of these can happen with a
+              little help from you. You can file bugs and new feature requests
+              on our Bugzilla. Developers can start working on it.
+            </p>
+            <a href="https://bugs.kde.org/"
+              ><button class="btn btn-primary getbutton" type="button">
+                &nbsp;Bugzilla
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="OSBlock alt">
+      <div class="container">
+        <div class="row downrow">
+          <div class="col-md-4 imagecol">
+            <img class="img-fluid" src="assets/img/mailinglist.png" />
+          </div>
+          <div class="col-md-8 down-desc">
+            <h1 class="down-head">Mailing List</h1>
+            <p class="down-par">
+              Still can't resolve the issue. Why not get in touch through email?
+              Developers and other users including enthusiasts can help you out.
+            </p>
+            <a href="https://bugs.kde.org/"
+              ><button class="btn btn-primary getbutton" type="button">
+                Mailing List
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="OSBlock main">
+      <div class="container">
+        <div class="row downrow">
+          <div class="col-md-8 down-desc">
+            <h1 class="down-head"><strong>Mailing List</strong></h1>
+            <p class="down-par">
+              Still can't resolve the issue. Why not get in touch through email
+              or IRC? Developers and other users including enthusiasts can help
+              you out.&nbsp;
+            </p>
+            <a href="https://mail.kde.org/mailman/listinfo/kdeconnect"
+              ><button class="btn btn-primary getbutton" type="button">
+                Mailing LIst
+              </button></a
+            >
+          </div>
+          <div class="col-md-4 imagecol">
+            <img class="img-fluid" src="assets/img/mailinglist.png" />
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <h1 id="work-in-progress">Work in Progress</h1>
-
-      <h2 id="handbook">Handbook</h2>
-
-      <p>
-        Lost in KDE Connect settings or just looking to discover more features
-        in KDE Connect? You can read the
-        <a href="">KDE Connect Handbook</a>
-        to find answers to your questions.
-      </p>
-
-      <h2 id="need-help">Need Help?</h2>
-
-      <p>
-        Check the KDE Connect on
-        <a href="http://forum.kde.org/">KDE Forums</a>
-        maybe someone has already solved a similar problem. And of not, feel
-        free to ask there!
-      </p>
-
-      <h2 id="found-a-bug">Found a Bug?</h2>
-
-      <p>
-        Bugs in software happen. If you found some in KDE Connect, please report
-        them into <a href="https://bugs.kde.org">our Bugzilla</a>. Please do not
-        report bugs on forums or mailinglists - such reports will most likely be
-        overlooked or forgotten by the developers quite soon. To make sure the
-        bug gets noticed by developers and fixed as soon as possible, report it
-        into Bugzilla.
-      </p>
-
-      <h2 id="missing-a-feature">Missing a Feature?</h2>
-
-      <p>
-        KDE Connect has a lot of features, but there’s always a room for one or
-        two more. If you have an idea for an improvement or you are missing a
-        feature in KDE Connect; write your suggestion in our
-        <a href="https://bugs.kde.org">Bugzilla</a>
-        so that the developers can find it and implement it.
-      </p>
-    </main>
-
-    <footer class="footer" id="kFooter">
-      <section class="container" id="kFooterIncome">
-        <div class="w-100" id="kDonateForm">
+    <footer id="kFooter" class="footer">
+      <section id="kFooterIncome" class="container">
+        <div id="kDonateForm" class="w-100">
           <div class="center">
             <h3>
               Donate to KDE
@@ -167,39 +321,39 @@
               method="post"
               onsubmit="return amount.value >= 2 || window.confirm('Your donation is smaller than 2€. This means that most of your donation\nwill end up in processing fees. Do you want to continue?');"
             >
-              <input name="cmd" type="hidden" value="_donations" />
-              <input name="lc" type="hidden" value="GB" />
+              <input type="hidden" name="cmd" value="_donations" />
+              <input type="hidden" name="lc" value="GB" />
               <input
-                name="item_name"
                 type="hidden"
+                name="item_name"
                 value="Development and communication of KDE software"
               />
-              <input name="custom" type="hidden" value="/" />
-              <input name="currency_code" type="hidden" value="EUR" />
-              <input name="cbt" type="hidden" value="Return to www.kde.org" />
+              <input type="hidden" name="custom" value="/" />
+              <input type="hidden" name="currency_code" value="EUR" />
+              <input type="hidden" name="cbt" value="Return to www.kde.org" />
               <input
-                name="return"
                 type="hidden"
+                name="return"
                 value="https://www.kde.org/community/donations/thanks_paypal.php"
               />
               <input
-                name="notify_url"
                 type="hidden"
+                name="notify_url"
                 value="https://www.kde.org/community/donations/notify.php"
               />
               <input
-                name="business"
                 type="hidden"
+                name="business"
                 value="kde-ev-paypal@kde.org"
               />
               <input
-                id="donateAmountField"
-                name="amount"
                 type="text"
+                name="amount"
                 value="10.00"
+                id="donateAmountField"
               />
               €
-              <button id="donateSubmit" type="submit">Donate via PayPal</button>
+              <button type="submit" id="donateSubmit">Donate via PayPal</button>
             </form>
 
             <a
@@ -212,7 +366,7 @@
         </div>
       </section>
 
-      <section class="container" id="kLinks">
+      <section id="kLinks" class="container">
         <div class="row">
           <nav class="col-sm">
             <h3>Products</h3>
@@ -293,7 +447,7 @@
         </div>
       </section>
 
-      <section class="container kSocialLinks" id="kSocial">
+      <section id="kSocial" class="container kSocialLinks">
         <a
           class="shareFacebook"
           href="https://www.facebook.com/kde/"
@@ -347,15 +501,13 @@
         >
       </section>
 
-      <section class="container" id="kLegal">
+      <section id="kLegal" class="container">
         <div class="row">
           <small class="col-4">
-            Maintained by
-            <a href="mailto:kde-www@kde.org">KDE www</a>
+            Maintained by <a href="mailto:kde-www@kde.org">KDE www</a>
           </small>
           <small class="col-8 text-right">
-            KDE<sup>®</sup>
-            and
+            KDE<sup>®</sup> and
             <a href="/media/images/trademark_kde_gear_black_logo.png"
               >the K Desktop Environment<sup>®</sup> logo</a
             >
