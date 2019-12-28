@@ -102,3 +102,12 @@
     display: none;
   }
 }
+.card.announcements {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.divheadannoun {
+  font-weight: bold;
+  margin-top: 50px;
+}

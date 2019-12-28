@@ -13,20 +13,20 @@
 
 
         <!-- Icons -->
-        <link href=" /kc_site/assets/aether/media/192x192.png" rel="icon" sizes="192x192"/>
-        <link href=" /kc_site/assets/aether/media/180x180.png" rel="apple-touch-icon" sizes="180x180"/>
-        <link href=" /kc_site/assets/aether/media/128x128.svg" rel="icon" sizes="128x128"/>
-        <link href=" /kc_site/assets/aether/media/64x64.svg" rel="icon" sizes="64x64"/>
-        <link href=" /kc_site/assets/aether/media/32x32.svg" rel="icon" sizes="32x32"/>
-        <link href=" /kc_site/assets/aether/media/24x24.svg" rel="icon" sizes="24x24"/>
-        <link href=" /kc_site/assets/aether/media/16x16.svg" rel="icon" sizes="16x16"/>
+        <link href="/kc_site/assets/aether/media/192x192.png" rel="icon" sizes="192x192"/>
+        <link href="/kc_site/assets/aether/media/180x180.png" rel="apple-touch-icon" sizes="180x180"/>
+        <link href="/kc_site/assets/aether/media/128x128.svg" rel="icon" sizes="128x128"/>
+        <link href="/kc_site/assets/aether/media/64x64.svg" rel="icon" sizes="64x64"/>
+        <link href="/kc_site/assets/aether/media/32x32.svg" rel="icon" sizes="32x32"/>
+        <link href="/kc_site/assets/aether/media/24x24.svg" rel="icon" sizes="24x24"/>
+        <link href="/kc_site/assets/aether/media/16x16.svg" rel="icon" sizes="16x16"/>
 
 
         <!-- Bootstrap core CSS -->
         <link href="https://cdn.kde.org/aether-devel/bootstrap.css?4-jekyll" rel="stylesheet">
         <link href="https://cdn.kde.org/aether-devel/aether-kde-org.css?4-jekyll" rel="stylesheet">
 
-        <link href=" /kc_site/css/main.css?4-jekyll" rel="stylesheet">
+        <link href="/kc_site/css/main.css?4-jekyll" rel="stylesheet">
 
         <!-- Standard JS Files, bootstrap Async -->
         <script defer="" src="https://cdn.kde.org/aether-devel/bootstrap.js?4-jekyll"></script>
@@ -39,8 +39,8 @@
         <header class="header clearfix" id="KGlobalHeader">
             <nav class="navbar navbar-expand-lg  with-made-by-kde ">
 
-                <a class="app-logo navbar-brand active" href=" /kc_site">
-                    <img alt="Logo" src=" /kc_site/assets/img/KDE_Logo.png"/>
+                <a class="app-logo navbar-brand active" href="/kc_site">
+                    <img alt="Logo" src="/kc_site/assets/img/KDE_Logo.png"/>
                 </a>
 
                 <button aria-controls="navbar-kde" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar-kde" data-toggle="collapse" type="button">
@@ -49,27 +49,36 @@
                 <div class="collapse navbar-collapse" id="navbar-kde">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a aria-expanded="false" aria-haspopup="true" class="nav-link " href=" /kc_site">KDE Connect</a>
+                            <a aria-expanded="false" aria-haspopup="true" class="nav-link " href="/kc_site">KDE Connect</a>
                         </li>
 
 
                         <li class="nav-item">
-                            <a class="nav-link " href=" /kc_site/download.html">Download</a>
+                            <a class="nav-link " href="/kc_site/download.html">Download</a>
                         </li>
 
 
                         <li class="nav-item">
-                            <a class="nav-link " href=" /kc_site/users.html">User support</a>
+                            <a class="nav-link " href="/kc_site/users.html">User support</a>
                         </li>
 
 
                         <li class="nav-item">
-                            <a class="nav-link " href=" /kc_site/get-involved.html">Get Involved</a>
+                            <a class="nav-link " href="/kc_site/get-involved.html">Get Involved</a>
                         </li>
 
 
-                        <li class="nav-item">
-                            <a class="nav-link " href=" /kc_site/blog">Announcements</a>
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarnews" role="button">
+                                News
+                            </a>
+                            <div aria-labelledby="navbarnews" class="dropdown-menu">
+
+                                <a class="dropdown-item" href="/kc_site/official">Official Announcement</a>
+
+                                <a class="dropdown-item" href="/kc_site/dev">Developer Blogs</a>
+
+                            </div>
                         </li>
 
 
